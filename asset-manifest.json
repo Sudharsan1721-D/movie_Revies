@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/movie_Revies/static/css/main.9d2c264b.css",
+    "main.js": "/movie_Revies/static/js/main.a92fb45c.js",
+    "static/js/453.e94236c0.chunk.js": "/movie_Revies/static/js/453.e94236c0.chunk.js",
+    "index.html": "/movie_Revies/index.html",
+    "main.9d2c264b.css.map": "/movie_Revies/static/css/main.9d2c264b.css.map",
+    "main.a92fb45c.js.map": "/movie_Revies/static/js/main.a92fb45c.js.map",
+    "453.e94236c0.chunk.js.map": "/movie_Revies/static/js/453.e94236c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d2c264b.css",
+    "static/js/main.a92fb45c.js"
+  ]
+}
