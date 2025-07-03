@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  font-family: 'Quicksand', sans-serif;
+  color: #2c3e50;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.form {
+  font-family: 'Quicksand', sans-serif;
+  width: 420px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 2px solid #5dade2;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+  margin-top: 16px;
+  color: #34495e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #5dade2;
   color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.form button:hover {
+  background-color: #3498db;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review-list {
+  font-family: 'Merriweather', serif;
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border: 2px solid #27ae60;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-list h2 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #27ae60;
+}
+
+.review-list p {
+  text-align: center;
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.review-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.review-card {
+  background-color: #ecf9f1;
+  border-left: 5px solid #2ecc71;
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  line-height: 1.6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.review-card strong {
+  color: #1e8449;
+  font-size: 18px;
+}
+
+.review-card em {
+  font-style: italic;
+  color: #34495e;
+}
+
+.review-card p {
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+.main {
+  display: inline-block;
+  margin: 10px 12px;
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main:hover {
+  background-color: darkorange;
+  transform: translateY(-2px);
+}
+.nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1{
+  text-align: center;
 }
